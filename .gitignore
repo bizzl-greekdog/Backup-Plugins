@@ -1,0 +1,9 @@
+*.mo
+/nbproject/private/
+.settings
+*.*~
+.DS_Store
+*.class
+*.pyc
+*.pyo
+.project
