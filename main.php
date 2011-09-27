@@ -144,7 +144,7 @@ class WP_Backup_Plugins {
 			else
 				$r = $zip->addFile(ABSPATH . $file, $file);
 			if (!$r)
-				error(sprintf(__('Could\'nt add file <em>%s</em> to archive <em>%s</em>!'), $file, basename($zip_name)));
+				error(sprintf(__('Couldn\'t add file <em>%s</em> to archive <em>%s</em>!'), $file, basename($zip_name)));
 		}
 		$zip->close();
 	}
